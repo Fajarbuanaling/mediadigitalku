@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header with animated background -->
+    <header
+      class="hero"
+      role="banner"
+    >
+      <!-- Background Animation -->
+      <div
+        class="background-animation"
+        aria-hidden="true"
+      >
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+      </div>
+
+      <!-- Navigation -->
+      <nav
+        class="glass-nav"
+        role="navigation"
+      >
+        <div class="logo">
+          <a
+            href="#home"
+            class="logo-link"
+          >
+            <span class="logo-text">Port<span class="highlight">folio</span></span>
+          </a>
+        </div>
+
+        <!-- Main Navigation -->
+        <ul
+          class="nav-links"
+          role="menubar"
+        >
+          <li role="none">
+            <a
+              href="#home"
+              class="nav-link active"
+              role="menuitem"
+              ><span class="link-text">Home</span></a
+            >
+          </li>
+          <li role="none">
+            <a
+              href="#about"
+              class="nav-link"
+              role="menuitem"
+              ><span class="link-text">About</span></a
+            >
+          </li>
+          <li role="none">
+            <a
+              href="#projects"
+              class="nav-link"
+              role="menuitem"
+              ><span class="link-text">Projects</span></a
+            >
+          </li>
+          <li role="none">
+            <a
+              href="#skills"
+              class="nav-link"
+              role="menuitem"
+              ><span class="link-text">Skills</span></a
+            >
+          </li>
+          <li role="none">
+            <a
+              href="#contact"
+              class="nav-link"
+              role="menuitem"
+              ><span class="link-text">Contact</span></a
+            >
+          </li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <button
+          class="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          type="button"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+
+      <!-- Hero Content -->
+      <div
+        class="hero-content"
+        id="home"
+      >
+        <!-- Profile Section -->
+        <div class="profile-container">
+          <div class="profile-image">
+            <img
+              src="img/foto.jpg"
+              alt="Muhammad Fajar Buana's profile picture"
+              class="animated-image"
+              loading="eager"
+              width="300"
+              height="300"
+            />
+            <div
+              class="image-outline"
+              aria-hidden="true"
+            ></div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="profile-social">
+            <a
+              href="https://github.com/username"
+              class="social-icon"
+              aria-label="Visit my GitHub profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fab fa-github"
+                aria-hidden="true"
+              ></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/username"
+              class="social-icon"
+              aria-label="Visit my LinkedIn profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fab fa-linkedin"
+                aria-hidden="true"
+              ></i>
+            </a>
+            <a
+              href="https://twitter.com/username"
+              class="social-icon"
+              aria-label="Visit my Twitter profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fab fa-twitter"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Text Content -->
+        <div class="hero-text">
+          <p class="greeting">Welcome to my portfolio</p>
+          <h1 class="animated-text">
+            Hello, I'm
+            <span class="highlight typing-effect">Muhammad Fajar Buana</span>
+          </h1>
+          <h2 class="animated-subtitle">
+            I'm a
+            <span
+              class="role-text"
+              aria-live="polite"
+            ></span>
+          </h2>
+          <p class="hero-description">Creating clean, responsive, and user-friendly websites with modern technologies.</p>
+
+          <!-- Call to Action Buttons -->
+          <div class="cta-buttons">
+            <a
+              href="#contact"
+              class="cta-button primary"
+              >Contact Me</a
+            >
+            <a
+              href="#projects"
+              class="cta-button secondary"
+              >View My Work</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <div class="scroll-down">
+        <a
+          href="#about"
+          class="scroll-link"
+          aria-label="Scroll to About section"
+        >
+          <div
+            class="mouse"
+            aria-hidden="true"
+          >
+            <div class="wheel"></div>
+          </div>
+          <div
+            class="arrows"
+            aria-hidden="true"
+          >
+            <span class="arrow-down"></span>
+            <span class="arrow-down"></span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="about section-padding"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-img reveal-left">
+            <div class="img-border"></div>
+            <!-- Container untuk animasi Lottie -->
+            <div
+              id="lottie-programmer"
+              class="fade-in"
+            ></div>
+            <div class="experience-badge">
+              <span class="years">3+</span>
+              <span class="text">Years<br />Experience</span>
+            </div>
+          </div>
+          <div class="about-text reveal-right">
+            <h3 class="about-subtitle">Web Developer & UI/UX Designer</h3>
+            <p class="about-desc">
+              Saya adalah seorang Web Developer dengan pengalaman lebih dari 3 tahun dalam mengembangkan aplikasi web yang responsif dan user-friendly. Fokus utama saya adalah pada teknologi front-end modern seperti HTML, Javascript, dan
+              teknologi desain UI/UX.
+            </p>
+
+            <div class="about-details">
+              <div class="detail-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="detail-content">
+                  <h4>Pendidikan</h4>
+                  <p>D3 Sistem Informatika, Universitas Bina Sarana Informatika (2017-2020)</p>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <i class="fas fa-briefcase"></i>
+                <div class="detail-content">
+                  <h4>Pengalaman</h4>
+                  <p>Frontend Developer di PT. Teknologi Maju (2022-Sekarang)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a
+                href="javascript:void(0)"
+                class="btn btn-primary"
+                onclick="downloadCV()"
+              >
+                <i class="fas fa-download"></i> Download CV
+              </a>
+              <a
+                href="#skills"
+                class="btn btn-secondary"
+              >
+                <i class="fas fa-code"></i> Lihat Skills
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats reveal-bottom">
+          <div class="stat-item">
+            <div
+              class="stat-number"
+              data-count="25"
+            >
+              0
+            </div>
+            <div class="stat-title">Proyek Selesai</div>
+          </div>
+          <div class="stat-item">
+            <div
+              class="stat-number"
+              data-count="15"
+            >
+              0
+            </div>
+            <div class="stat-title">Klien Puas</div>
+          </div>
+          <div class="stat-item">
+            <div
+              class="stat-number"
+              data-count="3"
+            >
+              0
+            </div>
+            <div class="stat-title">Tahun Pengalaman</div>
+          </div>
+          <div class="stat-item">
+            <div
+              class="stat-number"
+              data-count="10"
+            >
+              0
+            </div>
+            <div class="stat-title">Penghargaan</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="projects section-padding"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+          <div class="section-line"></div>
+          <p class="section-description">Berikut adalah beberapa proyek terbaik yang telah saya kerjakan</p>
+        </div>
+
+        <!-- Filter Projects -->
+        <div class="project-filter reveal-item">
+          <button
+            class="filter-btn active"
+            data-filter="all"
+          >
+            Semua
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="web"
+          >
+            Web Development
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="mobile"
+          >
+            Web Design
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="design"
+          >
+            UI/UX Design
+          </button>
+        </div>
+
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <div
+            class="project-card reveal-item"
+            data-category="web"
+          >
+            <div class="project-img">
+              <div class="featured-badge">Featured</div>
+              <img
+                src="img/fotou.png"
+                alt="E-commerce Website"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h4>Fitur Utama:</h4>
+                  <ul>
+                    <li>Responsive Design</li>
+                    <li>Payment Integration</li>
+                    <li>User Authentication</li>
+                  </ul>
+                  <button
+                    class="view-details-btn"
+                    data-project="project1"
+                  >
+                    Lihat Detail
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">ShopEase E-commerce</h3>
+              <p class="project-description">Platform e-commerce modern dengan fitur keranjang belanja, pembayaran online, dan manajemen pesanan. Website ini dibangun untuk meningkatkan pengalaman belanja online.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Stripe API</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/username/project1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Lihat kode di GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                  <span class="link-text">Source Code</span>
+                </a>
+                <a
+                  href="https://shopease-demo.example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Kunjungi website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  <span class="link-text">Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="project-card reveal-item"
+            data-category="mobile"
+          >
+            <div class="project-img">
+              <img
+                src="img/fotou.png"
+                alt="Fitness Tracking App"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h4>Fitur Utama:</h4>
+                  <ul>
+                    <li>Offline Mode</li>
+                    <li>Fitness Progress Tracking</li>
+                    <li>Personalized Workouts</li>
+                  </ul>
+                  <button
+                    class="view-details-btn"
+                    data-project="project2"
+                  >
+                    Lihat Detail
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">FitTrack Mobile App</h3>
+              <p class="project-description">Aplikasi mobile untuk melacak aktivitas fitness, membuat program latihan, dan monitor kemajuan kesehatan. Mendukung sinkronisasi dengan perangkat wearable.</p>
+              <div class="project-tags">
+                <span>React Native</span>
+                <span>Firebase</span>
+                <span>Redux</span>
+                <span>Health API</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/username/project2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Lihat kode di GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                  <span class="link-text">Source Code</span>
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.fittrack.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Download app"
+                >
+                  <i class="fab fa-google-play"></i>
+                  <span class="link-text">Download</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="project-card reveal-item"
+            data-category="design"
+          >
+            <div class="project-img">
+              <img
+                src="img/fotou.png"
+                alt="Dashboard UI Design"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h4>Fitur Utama:</h4>
+                  <ul>
+                    <li>Data Visualization</li>
+                    <li>Dark/Light Mode</li>
+                    <li>Interactive Components</li>
+                  </ul>
+                  <button
+                    class="view-details-btn"
+                    data-project="project3"
+                  >
+                    Lihat Detail
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">AdminPanel Dashboard</h3>
+              <p class="project-description">Dashboard admin dengan visualisasi data interaktif untuk memantau metrik bisnis. Mendukung kustomisasi tampilan dan pelaporan real-time.</p>
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>Adobe XD</span>
+                <span>CSS Grid</span>
+                <span>Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://dribbble.com/shots/project3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Lihat desain di Dribbble"
+                >
+                  <i class="fab fa-dribbble"></i>
+                  <span class="link-text">Dribbble</span>
+                </a>
+                <a
+                  href="https://adminpanel-demo.example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Lihat prototype"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  <span class="link-text">Prototype</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div
+            class="project-card reveal-item"
+            data-category="web"
+          >
+            <div class="project-img">
+              <img
+                src="img/fotou.png"
+                alt="Learning Management System"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h4>Fitur Utama:</h4>
+                  <ul>
+                    <li>Course Management</li>
+                    <li>Video Streaming</li>
+                    <li>Progress Tracking</li>
+                  </ul>
+                  <button
+                    class="view-details-btn"
+                    data-project="project4"
+                  >
+                    Lihat Detail
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">EduLearn LMS</h3>
+              <p class="project-description">Platform pembelajaran online dengan fitur manajemen kursus, konten video, kuis interaktif, dan sertifikasi digital untuk institusi pendidikan.</p>
+              <div class="project-tags">
+                <span>Vue.js</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+                <span>AWS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/username/project4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Lihat kode di GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                  <span class="link-text">Source Code</span>
+                </a>
+                <a
+                  href="https://edulearn-demo.example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Kunjungi website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  <span class="link-text">Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal -->
+        <div
+          id="project-modal"
+          class="modal"
+        >
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content-container">
+              <!-- Modal content will be loaded dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <!-- View More Button -->
+        <div class="view-more reveal-item">
+          <a
+            href="projects.html"
+            class="btn btn-primary"
+          >
+            <span>Lihat Semua Proyek</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="skills section-padding"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+          <div class="section-line"></div>
+          <p class="section-description">Berikut adalah kemampuan teknis yang saya kuasai dan terus kembangkan</p>
+        </div>
+
+        <!-- Skills tabs navigation -->
+        <div class="skills-tabs reveal-item">
+          <button
+            class="tab-btn active"
+            data-tab="technical"
+          >
+            Technical Skills
+          </button>
+          <button
+            class="tab-btn"
+            data-tab="soft"
+          >
+            Soft Skills
+          </button>
+          <button
+            class="tab-btn"
+            data-tab="tools"
+          >
+            Tools & Software
+          </button>
+        </div>
+
+        <!-- Technical Skills Tab Content -->
+        <div
+          class="tab-content active"
+          id="technical-tab"
+          role="tabpanel"
+          aria-labelledby="technical-btn"
+        >
+          <div class="skills-wrapper">
+            <!-- Frontend Development Category -->
+            <section
+              class="skill-category reveal-item"
+              data-delay="100"
+            >
+              <header class="category-header">
+                <span
+                  class="category-icon"
+                  aria-hidden="true"
+                >
+                  <i class="fas fa-code"></i>
+                </span>
+                <h3 class="category-title">Frontend Development</h3>
+              </header>
+
+              <div class="skill-grid">
+                <!-- HTML5 Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <h4 class="skill-name">HTML5</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="HTML5 proficiency: 90%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="90"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Semantic HTML, Accessibility, SVG</span>
+                  </div>
+                </article>
+
+                <!-- CSS3 Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <h4 class="skill-name">CSS3</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="CSS3 proficiency: 85%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="85"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Flexbox, Grid, Animations, Responsive Design</span>
+                  </div>
+                </article>
+
+                <!-- JavaScript Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-js"></i>
+                  </div>
+                  <h4 class="skill-name">JavaScript</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="JavaScript proficiency: 80%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="80"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>ES6+, DOM Manipulation, AJAX, Fetch API</span>
+                  </div>
+                </article>
+
+                <!-- React Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-react"></i>
+                  </div>
+                  <h4 class="skill-name">React</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="React proficiency: 75%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="75"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Hooks, Context API, Redux, React Router</span>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <!-- Backend Development Category -->
+            <section
+              class="skill-category reveal-item"
+              data-delay="200"
+            >
+              <header class="category-header">
+                <span
+                  class="category-icon"
+                  aria-hidden="true"
+                >
+                  <i class="fas fa-server"></i>
+                </span>
+                <h3 class="category-title">Backend Development</h3>
+              </header>
+
+              <div class="skill-grid">
+                <!-- Node.js Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-node-js"></i>
+                  </div>
+                  <h4 class="skill-name">Node.js</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="Node.js proficiency: 70%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="70"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">70%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Express.js, RESTful APIs, JWT Auth</span>
+                  </div>
+                </article>
+
+                <!-- Python Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-python"></i>
+                  </div>
+                  <h4 class="skill-name">Python</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="Python proficiency: 75%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="75"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Django, Flask, Data Analysis</span>
+                  </div>
+                </article>
+
+                <!-- MySQL Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fas fa-database"></i>
+                  </div>
+                  <h4 class="skill-name">MySQL</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="MySQL proficiency: 65%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="65"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Queries, Database Design, Optimization</span>
+                  </div>
+                </article>
+
+                <!-- PHP Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-php"></i>
+                  </div>
+                  <h4 class="skill-name">PHP</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="PHP proficiency: 60%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="60"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">60%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Laravel, WordPress, CMS Development</span>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <!-- Mobile Development Category -->
+            <section
+              class="skill-category reveal-item"
+              data-delay="300"
+            >
+              <header class="category-header">
+                <span
+                  class="category-icon"
+                  aria-hidden="true"
+                >
+                  <i class="fas fa-mobile-alt"></i>
+                </span>
+                <h3 class="category-title">Mobile Development</h3>
+              </header>
+
+              <div class="skill-grid">
+                <!-- React Native Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-react"></i>
+                  </div>
+                  <h4 class="skill-name">React Native</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="React Native proficiency: 65%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="65"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Cross-platform Mobile Apps, Navigation</span>
+                  </div>
+                </article>
+
+                <!-- Android Skill -->
+                <article class="skill-card">
+                  <div
+                    class="skill-icon"
+                    aria-hidden="true"
+                  >
+                    <i class="fab fa-android"></i>
+                  </div>
+                  <h4 class="skill-name">Android</h4>
+                  <div
+                    class="skill-bar-container"
+                    aria-label="Android proficiency: 55%"
+                  >
+                    <div class="skill-bar">
+                      <div
+                        class="skill-level"
+                        data-level="55"
+                      ></div>
+                    </div>
+                    <span class="skill-percentage">55%</span>
+                  </div>
+                  <div
+                    class="skill-tooltip"
+                    role="tooltip"
+                  >
+                    <span>Java, Kotlin, Android Studio</span>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Soft Skills Tab Content -->
+        <div
+          class="tab-content"
+          id="soft-tab"
+        >
+          <div class="skills-wrapper">
+            <div class="soft-skills-container reveal-item">
+              <div class="soft-skill">
+                <div class="soft-skill-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="soft-skill-info">
+                  <h4>Team Collaboration</h4>
+                  <p>Bekerja efektif dalam tim dengan berbagai latar belakang dan keahlian untuk mencapai tujuan bersama.</p>
+                </div>
+              </div>
+
+              <div class="soft-skill">
+                <div class="soft-skill-icon">
+                  <i class="fas fa-comments"></i>
+                </div>
+                <div class="soft-skill-info">
+                  <h4>Komunikasi</h4>
+                  <p>Berkomunikasi secara jelas dan efektif baik secara verbal maupun tertulis dengan klien dan anggota tim.</p>
+                </div>
+              </div>
+
+              <div class="soft-skill">
+                <div class="soft-skill-icon">
+                  <i class="fas fa-tasks"></i>
+                </div>
+                <div class="soft-skill-info">
+                  <h4>Manajemen Proyek</h4>
+                  <p>Merencanakan, mengorganisir, dan mengelola resources untuk menyelesaikan proyek tepat waktu.</p>
+                </div>
+              </div>
+
+              <div class="soft-skill">
+                <div class="soft-skill-icon">
+                  <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="soft-skill-info">
+                  <h4>Problem Solving</h4>
+                  <p>Mengidentifikasi masalah dan menemukan solusi yang kreatif dan efektif.</p>
+                </div>
+              </div>
+
+              <div class="soft-skill">
+                <div class="soft-skill-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="soft-skill-info">
+                  <h4>Time Management</h4>
+                  <p>Mengatur prioritas dan deadline untuk memaksimalkan produktivitas dan efisiensi kerja.</p>
+                </div>
+              </div>
+
+              <div class="soft-skill">
+                <div class="soft-skill-icon">
+                  <i class="fas fa-book"></i>
+                </div>
+                <div class="soft-skill-info">
+                  <h4>Continuous Learning</h4>
+                  <p>Selalu mengikuti perkembangan teknologi baru dan meningkatkan keterampilan secara berkelanjutan.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Software Tab Content -->
+        <div
+          class="tab-content"
+          id="tools-tab"
+        >
+          <div class="tools-container reveal-item">
+            <div class="tool-item">
+              <img
+                src="img/tools/vscode.png"
+                alt="Visual Studio Code"
+              />
+              <span>VS Code</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/git.png"
+                alt="Git"
+              />
+              <span>Git</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/figma.png"
+                alt="Figma"
+              />
+              <span>Figma</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/adobe-xd.png"
+                alt="Adobe XD"
+              />
+              <span>Adobe XD</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/photoshop.png"
+                alt="Photoshop"
+              />
+              <span>Photoshop</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/docker.png"
+                alt="Docker"
+              />
+              <span>Docker</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/postman.png"
+                alt="Postman"
+              />
+              <span>Postman</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/github.png"
+                alt="GitHub"
+              />
+              <span>GitHub</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/npm.png"
+                alt="npm"
+              />
+              <span>npm</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/firebase.png"
+                alt="Firebase"
+              />
+              <span>Firebase</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/aws.png"
+                alt="AWS"
+              />
+              <span>AWS</span>
+            </div>
+            <div class="tool-item">
+              <img
+                src="img/tools/heroku.png"
+                alt="Heroku"
+              />
+              <span>Heroku</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certification Section -->
+        <div class="certification-section reveal-item">
+          <h3 class="cert-title">Sertifikasi & Penghargaan</h3>
+          <div class="cert-slider">
+            <div class="cert-card">
+              <img
+                src="img/certifications/cert1.jpg"
+                alt="Web Development Certification"
+              />
+              <div class="cert-info">
+                <h4>Full Stack Web Development</h4>
+                <p>Udemy - 2022</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="img/certifications/cert2.jpg"
+                alt="React Certification"
+              />
+              <div class="cert-info">
+                <h4>React Developer</h4>
+                <p>FreeCodeCamp - 2021</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="img/certifications/cert3.jpg"
+                alt="UI/UX Design Award"
+              />
+              <div class="cert-info">
+                <h4>UI/UX Design Excellence</h4>
+                <p>Dribbble - 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="contact section-padding"
+    >
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+          <div class="section-line"></div>
+          <p class="section-description">Tertarik untuk berkolaborasi atau memiliki pertanyaan? Jangan ragu untuk menghubungi saya</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Info Card -->
+          <div class="contact-info-card reveal-left">
+            <div class="card-pattern"></div>
+            <div class="card-content">
+              <h3 class="info-title">Mari Terhubung</h3>
+              <p class="contact-intro">Silakan hubungi saya untuk peluang kolaborasi, pertanyaan, atau sekadar menyapa</p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i
+                      class="fas fa-envelope"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Email</h4>
+                    <a
+                      href="mailto:mfajarbuana@yahoo.com"
+                      class="contact-link"
+                      >mfajarbuana@yahoo.com</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i
+                      class="fas fa-phone"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Telepon</h4>
+                    <a
+                      href="tel:+6281225754014"
+                      class="contact-link"
+                      >+62 812 2575 4014</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i
+                      class="fas fa-map-marker-alt"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Lokasi</h4>
+                    <p>Kota Yogyakarta, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-social">
+                <h4>Ikuti Saya</h4>
+                <div class="social-links">
+                  <a
+                    href="https://github.com/yourusername"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="GitHub Profile"
+                    class="social-btn"
+                  >
+                    <i
+                      class="fab fa-github"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/yourusername"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="LinkedIn Profile"
+                    class="social-btn"
+                  >
+                    <i
+                      class="fab fa-linkedin-in"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/yourusername"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter Profile"
+                    class="social-btn"
+                  >
+                    <i
+                      class="fab fa-twitter"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                  <a
+                    href="https://instagram.com/yourusername"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram Profile"
+                    class="social-btn"
+                  >
+                    <i
+                      class="fab fa-instagram"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="availability">
+                <div class="availability-indicator available">
+                  <span class="pulse"></span>
+                </div>
+                <p>Tersedia untuk project freelance</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-form-card reveal-right">
+            <h3 class="form-title">Kirim Pesan</h3>
+
+            <form
+              class="contact-form"
+              id="contact-form"
+            >
+              <div class="form-row">
+                <div class="form-group">
+                  <label
+                    for="name"
+                    class="form-label"
+                    >Nama Anda</label
+                  >
+                  <div class="input-container">
+                    <i
+                      class="fas fa-user input-icon"
+                      aria-hidden="true"
+                    ></i>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-input"
+                      placeholder="Masukkan nama anda"
+                      required
+                      data-error="Mohon masukkan nama anda"
+                    />
+                    <span class="input-status"></span>
+                    <span class="error-message"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label
+                    for="email"
+                    class="form-label"
+                    >Email Anda</label
+                  >
+                  <div class="input-container">
+                    <i
+                      class="fas fa-envelope input-icon"
+                      aria-hidden="true"
+                    ></i>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-input"
+                      placeholder="Masukkan email anda"
+                      required
+                      data-error="Mohon masukkan email yang valid"
+                    />
+                    <span class="input-status"></span>
+                    <span class="error-message"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="subject"
+                  class="form-label"
+                  >Subjek</label
+                >
+                <div class="input-container">
+                  <i
+                    class="fas fa-heading input-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-input"
+                    placeholder="Masukkan subjek pesan"
+                    required
+                    data-error="Mohon masukkan subjek pesan"
+                  />
+                  <span class="input-status"></span>
+                  <span class="error-message"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="message"
+                  class="form-label"
+                  >Pesan Anda</label
+                >
+                <div class="input-container textarea-container">
+                  <i
+                    class="fas fa-comment-alt input-icon textarea-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-input textarea"
+                    placeholder="Tulis pesan anda disini..."
+                    rows="5"
+                    required
+                    data-error="Mohon masukkan pesan anda"
+                  ></textarea>
+                  <span class="input-status"></span>
+                  <span class="error-message"></span>
+                </div>
+              </div>
+
+              <div class="form-footer">
+                <div class="form-message">
+                  <div class="loading">
+                    <div class="spinner"></div>
+                    <span>Mengirim...</span>
+                  </div>
+                  <div class="error-text">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Terjadi kesalahan. Silakan coba lagi.</span>
+                  </div>
+                  <div class="success-text">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Pesan terkirim! Terima kasih.</span>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="submit-btn"
+                >
+                  <span>Kirim Pesan</span>
+                  <i
+                    class="fas fa-paper-plane"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="map-container reveal-bottom">
+          <div class="map-card">
+            <div class="map-header">
+              <h3>Lokasi Saya</h3>
+              <p>Yogyakarta, Indonesia</p>
+            </div>
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d110.33036021886138!3d-7.782892635250974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1642523141433!5m2!1sen!2sid"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                title="Lokasi di Yogyakarta"
+                aria-label="Peta Google menunjukkan lokasi di Yogyakarta"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chat Widget -->
+    <div
+      id="chat-widget"
+      class="chat-widget"
+    >
+      <!-- Chat Button Toggle -->
+      <button
+        id="chat-toggle"
+        class="chat-button"
+        aria-label="Buka kotak chat"
+        aria-expanded="false"
+        aria-controls="chat-box"
+      >
+        <div class="chat-button-content">
+          <i
+            class="fas fa-comments"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fas fa-times close-icon"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <span
+          class="notification-badge"
+          aria-hidden="true"
+          >1</span
+        >
+        <span class="pulse-ring"></span>
+      </button>
+
+      <!-- Chat Box Container -->
+      <div
+        id="chat-box"
+        class="chat-container"
+        aria-live="polite"
+        aria-hidden="true"
+      >
+        <!-- Chat Header -->
+        <div class="chat-header">
+          <div class="chat-user">
+            <div class="chat-avatar">
+              <img
+                src="img/foto.jpg"
+                alt="Muhammad Fajar Buana"
+                loading="lazy"
+              />
+              <span
+                class="status-indicator online"
+                aria-hidden="true"
+              ></span>
+            </div>
+            <div class="chat-user-info">
+              <h3 class="chat-user-name">Muhammad Fajar Buana</h3>
+              <p class="status">
+                <span class="status-text">Online</span>
+                <span class="typing-indicator">
+                  <span class="typing-dot"></span>
+                  <span class="typing-dot"></span>
+                  <span class="typing-dot"></span>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="chat-actions">
+            <button
+              class="action-btn"
+              aria-label="Mute notifications"
+            >
+              <i
+                class="fas fa-bell"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <button
+              class="action-btn minimize-chat"
+              aria-label="Minimize chat"
+            >
+              <i
+                class="fas fa-minus"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <button
+              class="action-btn close-chat"
+              aria-label="Close chat"
+            >
+              <i
+                class="fas fa-times"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Messages Container -->
+        <div class="chat-messages-wrapper">
+          <div
+            class="chat-messages"
+            id="chat-messages"
+          >
+            <div class="chat-timestamp">
+              <span>Today</span>
+            </div>
+
+            <!-- Welcome Message -->
+            <div class="message received">
+              <div class="message-content">
+                <div class="message-bubble">
+                  <p>Halo! Terima kasih sudah mengunjungi portfolio saya. Ada yang bisa saya bantu?</p>
+                </div>
+                <div class="message-info">
+                  <span class="message-time">Baru saja</span>
+                  <span class="message-status"
+                    ><i
+                      class="fas fa-check-double"
+                      aria-hidden="true"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Replies for First Message -->
+            <div class="quick-replies">
+              <button
+                class="quick-reply-btn"
+                data-message="Saya tertarik dengan layanan Anda"
+              >
+                <i
+                  class="fas fa-briefcase"
+                  aria-hidden="true"
+                ></i>
+                Tertarik dengan layanan
+              </button>
+              <button
+                class="quick-reply-btn"
+                data-message="Saya ingin tahu tentang pendidikan Anda"
+              >
+                <i
+                  class="fas fa-graduation-cap"
+                  aria-hidden="true"
+                ></i>
+                Riwayat pendidikan
+              </button>
+              <button
+                class="quick-reply-btn"
+                data-message="Saya ingin tahu lebih lanjut tentang pengalaman Anda"
+              >
+                <i
+                  class="fas fa-user-tie"
+                  aria-hidden="true"
+                ></i>
+                Tentang pengalaman
+              </button>
+              <button
+                class="quick-reply-btn"
+                data-message="Bagaimana kita bisa bekerja sama?"
+              >
+                <i
+                  class="fas fa-handshake"
+                  aria-hidden="true"
+                ></i>
+                Cara berkolaborasi
+              </button>
+            </div>
+
+            <!-- Messages will be added here dynamically -->
+          </div>
+
+          <!-- Scrolldown Button -->
+          <button
+            class="scroll-bottom-btn"
+            aria-label="Scroll to bottom"
+          >
+            <i
+              class="fas fa-chevron-down"
+              aria-hidden="true"
+            ></i>
+          </button>
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="chat-input">
+          <!-- Emoji Picker (Hidden by default) -->
+          <div class="emoji-picker">
+            <div class="emoji-categories">
+              <button
+                class="emoji-category active"
+                data-category="recent"
+              >
+                <i
+                  class="fas fa-clock"
+                  aria-hidden="true"
+                ></i>
+              </button>
+              <button
+                class="emoji-category"
+                data-category="smileys"
+              >
+                <i
+                  class="fas fa-smile"
+                  aria-hidden="true"
+                ></i>
+              </button>
+              <button
+                class="emoji-category"
+                data-category="objects"
+              >
+                <i
+                  class="fas fa-lightbulb"
+                  aria-hidden="true"
+                ></i>
+              </button>
+              <button
+                class="emoji-category"
+                data-category="symbols"
+              >
+                <i
+                  class="fas fa-heart"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </div>
+            <div class="emoji-container">
+              <div
+                class="emoji-group active"
+                data-category="recent"
+              >
+                <span
+                  class="emoji"
+                  data-emoji="😊"
+                  >😊</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="👍"
+                  >👍</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="🙏"
+                  >🙏</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="❤️"
+                  >❤️</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="👏"
+                  >👏</span
+                >
+              </div>
+              <div
+                class="emoji-group"
+                data-category="smileys"
+              >
+                <span
+                  class="emoji"
+                  data-emoji="😀"
+                  >😀</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="😃"
+                  >😃</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="😄"
+                  >😄</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="😁"
+                  >😁</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="😆"
+                  >😆</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="😅"
+                  >😅</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="😂"
+                  >😂</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="🤣"
+                  >🤣</span
+                >
+              </div>
+              <div
+                class="emoji-group"
+                data-category="objects"
+              >
+                <span
+                  class="emoji"
+                  data-emoji="💻"
+                  >💻</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="📱"
+                  >📱</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="💼"
+                  >💼</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="📂"
+                  >📂</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="📊"
+                  >📊</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="📈"
+                  >📈</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="🔍"
+                  >🔍</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="⚙️"
+                  >⚙️</span
+                >
+              </div>
+              <div
+                class="emoji-group"
+                data-category="symbols"
+              >
+                <span
+                  class="emoji"
+                  data-emoji="❤️"
+                  >❤️</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="💙"
+                  >💙</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="💚"
+                  >💚</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="💛"
+                  >💛</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="💜"
+                  >💜</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="💯"
+                  >💯</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="✅"
+                  >✅</span
+                >
+                <span
+                  class="emoji"
+                  data-emoji="⭐"
+                  >⭐</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- File Upload Preview (Hidden by default) -->
+          <div class="file-preview">
+            <div class="file-preview-content">
+              <div class="file-info">
+                <i
+                  class="fas fa-file"
+                  aria-hidden="true"
+                ></i>
+                <span class="file-name">document.pdf</span>
+              </div>
+              <button
+                class="remove-file"
+                aria-label="Remove file"
+              >
+                <i
+                  class="fas fa-times"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Input Controls -->
+          <div class="input-controls">
+            <button
+              class="input-option file-option"
+              aria-label="Attach file"
+            >
+              <i
+                class="fas fa-paperclip"
+                aria-hidden="true"
+              ></i>
+              <input
+                type="file"
+                id="file-upload"
+                class="file-upload"
+                aria-hidden="true"
+              />
+            </button>
+            <button
+              class="input-option emoji-option"
+              aria-label="Insert emoji"
+            >
+              <i
+                class="fas fa-smile"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+
+          <!-- Input Field -->
+          <div class="input-field">
+            <div class="input-wrapper">
+              <textarea
+                id="chat-input"
+                placeholder="Ketik pesan Anda..."
+                rows="1"
+                aria-label="Message input"
+              ></textarea>
+            </div>
+            <button
+              id="send-message"
+              class="send-btn"
+              disabled
+              aria-label="Send message"
+            >
+              <i
+                class="fas fa-paper-plane"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Footer -->
+        <div class="chat-footer">
+          <p>
+            <i
+              class="far fa-clock"
+              aria-hidden="true"
+            ></i>
+            Biasanya membalas dalam waktu kurang dari satu jam
+          </p>
+          <p class="powered-by">
+            Didukung oleh
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener"
+              >Portfolio Chat</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 120"
+        >
+          <path
+            fill="#f9f9f9"
+            fill-opacity="1"
+            d="M0,64L60,80C120,96,240,128,360,128C480,128,600,96,720,80C840,64,960,64,1080,64C1200,64,1320,64,1380,64L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <span class="logo-text">Port<span class="highlight">folio</span></span>
+            </div>
+            <p class="footer-desc">Creating amazing web experiences with modern technologies and creative designs.</p>
+            <div class="footer-social">
+              <a
+                href="#"
+                aria-label="GitHub Profile"
+                target="_blank"
+                rel="noopener"
+              >
+                <i
+                  class="fab fa-github"
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a
+                href="#"
+                aria-label="LinkedIn Profile"
+                target="_blank"
+                rel="noopener"
+              >
+                <i
+                  class="fab fa-linkedin"
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a
+                href="#"
+                aria-label="Twitter Profile"
+                target="_blank"
+                rel="noopener"
+              >
+                <i
+                  class="fab fa-twitter"
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a
+                href="#"
+                aria-label="Instagram Profile"
+                target="_blank"
+                rel="noopener"
+              >
+                <i
+                  class="fab fa-instagram"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+              <li><a href="#">SEO Optimization</a></li>
+              <li><a href="#">E-Commerce</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to receive updates on new projects and tech articles.</p>
+            <form
+              class="newsletter-form"
+              id="newsletter-form"
+            >
+              <div class="newsletter-input">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button
+                  type="submit"
+                  aria-label="Subscribe"
+                >
+                  <i
+                    class="fas fa-paper-plane"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+              <div
+                class="form-message"
+                id="form-message"
+              ></div>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; <span id="current-year">2023</span> Muhammad Fajar Buana. All Rights Reserved.</p>
+          <p class="footer-attribution">
+            Made with
+            <i
+              class="fas fa-heart"
+              aria-hidden="true"
+            ></i>
+            in Yogyakarta, Indonesia
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+  </body>
+</html>
